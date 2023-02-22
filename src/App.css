@@ -1,3 +1,5 @@
+@import "bootstrap/dist/css/bootstrap.css";
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+a {
+  color: blue !important;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+/* credentials component css */
+
+.sign-login-div {
+  width: 30%;
+  margin: auto;
+  margin-top: 10%;
+  border: 1px solid black;
+  padding: 2em 2em;
+  border-radius: 15px;
 }
