@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 import Container from 'react-bootstrap/Container';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
