@@ -21,13 +21,32 @@ ChartJS.register(
 
 const options = {
   responsive: true,
+  scales: {
+    y: {
+      ticks: {
+        color: '#fff',
+      },
+    },
+    x: {
+      ticks: {
+        color: '#fff',
+      },
+    },
+  },
+  labels: {
+    fontColor: 'white'
+ },
   plugins: {
     legend: {
       position: 'top' as const,
+      labels: {
+        color: 'white'
+    }
     },
     title: {
       display: true,
-      text: 'Chart.js Bar Chart',
+      text: 'Sales Bar Chart',
+      color: '#fff'
     },
   },
 };
@@ -40,13 +59,11 @@ const data = {
     {
       label: 'Dataset 1',
       data: labels.map(() => faker.datatype.number({ min: 0, max: 1000 })),
-      backgroundColor: 'rgba(255, 255, 255, 1)',
-      color: '#fff'
+      fontColor : "white"
     },
     {
       label: 'Dataset 2',
       data: labels.map(() => faker.datatype.number({ min: 0, max: 1000 })),
-      backgroundColor: 'rgba(53, 162, 235, 1)',
     },
   ],
 };
