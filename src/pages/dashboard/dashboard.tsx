@@ -7,6 +7,8 @@ import { faCapsules, faCashRegister, faCircleUser, faLayerGroup, faPerson } from
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
+import { VerticalBarChart } from '../../components/charts/vertical_bar';
+
 import './dashboard.scss';
 
 export default class DashboardPage extends Component {
@@ -43,7 +45,8 @@ export default class DashboardPage extends Component {
               </Navbar>
             </div>
 
-            
+      <VerticalBarChart />
+
           </div>
 
         </div>
