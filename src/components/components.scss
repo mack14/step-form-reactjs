@@ -26,26 +26,26 @@ h6 {
     padding: 10px 16px;
 }
 table {
-    margin: 26px;
+    margin: 0.5em;
+}
+
+tr {
+    width: 100%;
 }
 
 th {
     display: block;
-    padding: 8px 70px;
     text-align: left;
     float: left;
+    width: 35%;
     background-color: rgba($color: #000000, $alpha: .6);
 }
-th:first-child {
-    padding-right: 160px;
-    
-}
+
 td {
     display: block;
     margin-top: 20px;
-    padding: 10px 74px;
+    padding: 0.2em 0.2em;
     text-align: center;
-    vertical-align: bottom;
     float: left;
     border-bottom: 1px solid #bbb;
     

@@ -11,6 +11,10 @@ interface RowDataProp {
     data: string
 }
 
+interface RowHeadingProp {
+    
+}
+
 interface QuickDetailsProps {
     title: string;
     rows: RowDataProp[];
