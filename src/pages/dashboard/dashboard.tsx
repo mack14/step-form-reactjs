@@ -62,10 +62,10 @@ export default class DashboardPage extends Component {
                       className="me-auto my-2 my-lg-0"
                       style={{ maxHeight: '100px' }}
                       navbarScroll>
-                      <Nav.Item> Organisation </Nav.Item>
+                      <Nav.Item className='username'> Organisation </Nav.Item>
                     </Nav>
                     <Nav.Item className='username'> Username </Nav.Item>
-                    <FontAwesomeIcon icon={faCircleUser} size="2xl" style={{ color: "#144e2f", }} />
+                    <FontAwesomeIcon icon={faCircleUser} size="2xl" style={{ color: "#250844;", }} />
                   </Navbar.Collapse>
                 </Container>
               </Navbar>
