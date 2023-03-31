@@ -23,7 +23,7 @@ const options = {
   scales: {
     y: {
       ticks: {
-        color: '#fc4c4e', 
+        color: '#fff', 
         font: {
           size: 18
         }
@@ -31,7 +31,7 @@ const options = {
     },
     x: {
       ticks: {
-        color: '#1c1c1c1', 
+        color: '#fff', 
         font: {
           size: 18
         }
@@ -42,7 +42,7 @@ const options = {
     legend: {
       position: 'top' as const,
       labels: {
-        color: '#1c1c1c1',
+        color: '#fff',
         font: {
           size: 18
         }
@@ -51,7 +51,7 @@ const options = {
     title: {
       display: true,
       text: 'Summary Chart',
-      color: '#1c1c1c1',
+      color: '#fff',
       font: {
         size: 18
       }
