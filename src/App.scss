@@ -6,7 +6,9 @@
   background-image: url('./assets/bg-images/Backgrounds-04-03.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top :10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -18,33 +20,7 @@ a {
 
 /* credentials component css */
 
-.sign-login-div {
-  width: 500px;
-  margin: auto;
-  border: none;
-  padding: 3em 3em;
-  border-radius: 10px;
-  background-color: rgba($color: #05371c, $alpha: .9);
-  box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
-}
-.sign-login-div input {
-  padding: 3%;
-  margin: auto;
-  margin-top: 7%;
-  background: transparent;
-  border: 0;
-  border-bottom: 2px solid #FFFFFF;
-  border-radius: 0%;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
-}
-.sign-login-div input::placeholder {
-  color: #FFFFFF;
-}
-.sign-login-div input:focus {
-  outline: none;
-}
+
 .button1 {
   margin-top: 7%;
   border: none;
@@ -55,13 +31,15 @@ a {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
   border-radius: 5px;
-  box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
   float: left;
   position: relative;
 }
+
 .button1 hover {
   background-color: #ffffff;
 }
+
 .button2 {
   margin-top: 7%;
   border: none;
@@ -72,7 +50,7 @@ a {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 800;
   border-radius: 5px;
-  box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
   float: right;
   position: relative;
 }
@@ -82,16 +60,17 @@ a {
   color: #fff;
 
 }
+
 .remember {
   float: left;
   position: relative;
   color: #FFFFFF;
   margin-top: 7%;
 }
+
 .forgot {
   float: right;
   position: relative;
   color: #FFFFFF;
   margin-top: 7%;
 }
-

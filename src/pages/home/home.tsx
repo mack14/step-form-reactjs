@@ -2,9 +2,7 @@ import { useState } from 'react';
 
 import LoginComponent from '../../components/credentials/login';
 import { SignupComponent } from '../../components/credentials/signup';
-
-import './home.scss'
-
+  
 export const HomePage = () => {
 
   const [showLogin, setShowLogin] = useState(false);
@@ -21,7 +19,7 @@ export const HomePage = () => {
   }
 
   return (
-    <div className="home-content">
+    <div>
            {/* signup part */}
             {showSignup && (
               <div>
