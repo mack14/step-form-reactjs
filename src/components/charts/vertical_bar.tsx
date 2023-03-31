@@ -21,6 +21,18 @@ ChartJS.register(
 
 const options = {
   responsive: true,
+  scales: {
+    y: {
+      ticks: {
+        color: 'white', // Set the color of the y-axis labels to black
+      },
+    },
+    x: {
+      ticks: {
+        color: 'white', // Set the color of the x-axis labels to black
+      },
+    },
+  },
   plugins: {
     legend: {
       position: 'top' as const,
@@ -42,13 +54,13 @@ const data = {
   labels,
   datasets: [
     {
-      label: 'Dataset 1',
-      data: labels.map(() => faker.datatype.number({ min: 0, max: 1000 })),
+      label: 'Customers',
+      data: [200, 300, 450, 440, 510, 550, 600],
       backgroundColor: 'rgba(255, 255, 255, 1)',
     },
     {
-      label: 'Dataset 2',
-      data: labels.map(() => faker.datatype.number({ min: 0, max: 1000 })),
+      label: 'Revenue',
+      data: [],
       backgroundColor: 'rgba(53, 162, 235, 1)',
     },
   ],

@@ -10,7 +10,17 @@ import Navbar from 'react-bootstrap/Navbar';
 import { VerticalBarChart } from '../../components/charts/vertical_bar';
 
 import './dashboard.scss';
+import { QuickDetailsComponent } from '../../components/quick_details';
 
+const quickDetailsData = [
+
+  {
+    icon: 'icon1',
+    parameter: 'Text',
+    data: 'Text',
+  }
+
+]
 export default class DashboardPage extends Component {
   render() {
     return (
@@ -46,6 +56,11 @@ export default class DashboardPage extends Component {
             </div>
 
       <VerticalBarChart />
+
+      <div className='quick-details'>
+      <QuickDetailsComponent title = 'Quick Details' rows={quickDetailsData} />
+
+      </div>
 
           </div>
 
