@@ -59,6 +59,7 @@ $border-color: rgba(140, 140, 140, .5);
 .dashboard-header {
     width: 100%;
     height: $header-height;
+    color: 144E2F;
 }
 .dashboard-content {
     width: 100%;
@@ -74,13 +75,14 @@ $border-color: rgba(140, 140, 140, .5);
     padding-left: 6%;
     padding-right: 6%;
     background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
- background-blend-mode: screen;
+    background-blend-mode: screen;
     background-repeat: no-repeat;
     overflow-y: auto;
 
     .username {
         padding-right: 1em;
-        color: #144E2F;
+        color: #250844;
+        font-weight: 700;
     }
   }
 
