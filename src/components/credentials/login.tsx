@@ -1,10 +1,10 @@
 import { Form, Row, Col } from 'react-bootstrap';
-import { Colors } from '../../constants/colors';
-import { ButtonComponent } from '../button';
 
 import { useRouting } from '../../services/routing';
 import { faCircleUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import GoogleButton from 'react-google-button'
 
 import './credentials.scss';
 
@@ -38,11 +38,16 @@ const LoginComponent = () => {
           </Row>
 
           <Row>
-            <Col md = {12}>
-              <button className="button1" type="submit" onClick={loginClicked}>log In</button>
-              <button className="button2" type="submit" onClick={loginClicked}>Google</button>
-            </Col>
-          </Row>
+          <Col md={12}>
+            <button className="signup-button credential-button" type="submit" onClick={loginClicked}>Log In</button>
+          </Col>
+        </Row>
+
+        <Row>
+          <Col className='pt-2' md={12}>
+            <GoogleButton className='credential-button' onClick={loginClicked} />
+          </Col>
+        </Row>
         </Form>
         </div>
     </div>
