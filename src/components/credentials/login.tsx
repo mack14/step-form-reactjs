@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Form, Row, Col } from 'react-bootstrap';
 import { Colors } from '../../constants/colors';
 import { ButtonComponent } from '../button';
