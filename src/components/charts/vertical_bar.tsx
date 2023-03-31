@@ -24,12 +24,18 @@ const options = {
   scales: {
     y: {
       ticks: {
-        color: '#fc4c4e', // Set the color of the y-axis labels to black
+        color: '#fc4c4e', 
+        font: {
+          size: 16
+        }
       },
     },
     x: {
       ticks: {
-        color: '#1c1c1c1', // Set the color of the x-axis labels to black
+        color: '#1c1c1c1', 
+        font: {
+          size: 16
+        }
       },
     },
   },
@@ -37,13 +43,20 @@ const options = {
     legend: {
       position: 'top' as const,
       labels: {
-        color: '#1c1c1c1'
+        color: '#1c1c1c1',
+        font: {
+          size: 16
+        }
       }
     },
     title: {
       display: true,
-      text: 'Chart.js Bar Chart',
-      color: '#1c1c1c1'
+      text: 'Summary Chart',
+      color: '#1c1c1c1',
+      font: {
+        size: 16
+      }
+
     },
   },
 };
