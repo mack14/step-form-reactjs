@@ -4,9 +4,42 @@
     background-image: url('./../assets/bg-images/Backgrounds-01.svg');
     background-repeat: no-repeat;
     padding: 1em;
+    float: right;
 
     h6 {
         text-align: left;
         color: #fff;
+        padding: 10px 16px;
     }
+}
+
+.top-products-content {
+    width: 30vw;
+    height: 50vh;
+    background-image: url('./../assets/bg-images/Backgrounds-01.svg');
+    background-repeat: no-repeat;
+    padding: 1em;
+    float: left;
+
+    h6 {
+        text-align: left;
+        color: #fff;
+        padding: 10px 16px;
+    }
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+li p {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 18px;
+    
 }

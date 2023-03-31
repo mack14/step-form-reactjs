@@ -11,14 +11,14 @@ interface RowDataProp {
     data: string
 }
 
-interface QuickDetailsProps {
+interface TopProductsProps {
     title: string;
     rows: RowDataProp[];
 }
 
-export const QuickDetailsComponent = ({ title, rows }: QuickDetailsProps) => {
+export const TopProductsComponent = ({ title, rows }: TopProductsProps) => {
     return (
-        <div className="quick-details-content">
+        <div className="top-products-content">
             <h6> {title} </h6>
 
             {rows.map((row, index) =>

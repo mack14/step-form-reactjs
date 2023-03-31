@@ -8,6 +8,7 @@ import { ButtonComponent } from "../button";
 import { useRouting } from "../../services/routing";
 import { faCircleUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Button } from 'react-bootstrap';
 
 export const SignupComponent = () => {
 

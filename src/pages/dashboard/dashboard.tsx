@@ -11,6 +11,7 @@ import { VerticalBarChart } from '../../components/charts/vertical_bar';
 
 import './dashboard.scss';
 import { QuickDetailsComponent } from '../../components/quick_details';
+import { TopProductsComponent } from '../../components/top_products';
 
 const quickDetailsData = [
 
@@ -57,7 +58,8 @@ export default class DashboardPage extends Component {
 
       <VerticalBarChart />
 
-      <div className='quick-details'>
+      <div className='summary-details'>
+      <TopProductsComponent  title = 'Top Products' rows={quickDetailsData} />
       <QuickDetailsComponent title = 'Quick Details' rows={quickDetailsData} />
 
       </div>
