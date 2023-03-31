@@ -6,39 +6,49 @@ import { faCircleUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 interface RowDataProp {
-    icon: string;
-    parameter: string;
-    data: string
+    product: string;
+    inventory: number;
+    cumulativeSales: string;
+}
+
+interface headerDataProp {
+    product: string;
+    inventory: string;
+    total: string;
 }
 
 interface TopProductsProps {
     title: string;
+    header: headerDataProp[],
     rows: RowDataProp[];
 }
 
-export const TopProductsComponent = ({ title, rows }: TopProductsProps) => {
+export const TopProductsComponent = ({ title, header, rows }: TopProductsProps) => {
     return (
-        <div className="top-products-content">
+        <div className="top-products-content top-product-table  ">
             <h6> {title} </h6>
             <table>
-                <tr>
-                    <th>Head</th>
-                    <th>Head</th>
-                    <th>Head</th>
-                </tr>
-
-                {rows.map((row, index) =>
+            {header.map((header, index) =>
                     <Row key={index}>
                         <tr>
-                            <td><img src={row.icon} alt="icon"/></td>
-                            <td>{row.data}</td>
-                            <td>{row.parameter}</td>
+                            <th>{header.product}</th>
+                            <th>{header.inventory}</th>
+                            <th>{header.total}</th>
                             
                         </tr>
                     </Row>
                 )}
+
+                {rows.map((row, index) =>
+                    <Row key={index}>
+                        <tr>
+                            <td>{row.product}</td>
+                            <td>{row.inventory}</td>
+                            <td>{row.cumulativeSales}</td>
+                        </tr>
+                    </Row>
+                )}
             </table>
-            <button className='click-for-more'><p>Show More</p></button>
         </div>
     );
 };
