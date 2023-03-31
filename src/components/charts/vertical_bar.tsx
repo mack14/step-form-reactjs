@@ -26,7 +26,7 @@ const options = {
       ticks: {
         color: '#fc4c4e', 
         font: {
-          size: 16
+          size: 18
         }
       },
     },
@@ -34,7 +34,7 @@ const options = {
       ticks: {
         color: '#1c1c1c1', 
         font: {
-          size: 16
+          size: 18
         }
       },
     },
@@ -45,7 +45,7 @@ const options = {
       labels: {
         color: '#1c1c1c1',
         font: {
-          size: 16
+          size: 18
         }
       }
     },
@@ -54,7 +54,7 @@ const options = {
       text: 'Summary Chart',
       color: '#1c1c1c1',
       font: {
-        size: 16
+        size: 18
       }
 
     },
