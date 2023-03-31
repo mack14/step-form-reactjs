@@ -20,16 +20,25 @@ export const TopProductsComponent = ({ title, rows }: TopProductsProps) => {
     return (
         <div className="top-products-content">
             <h6> {title} </h6>
+            <table>
+                <tr>
+                    <th>Head</th>
+                    <th>Head</th>
+                    <th>Head</th>
+                </tr>
 
-            {rows.map((row, index) =>
-                <Row key={index}>
-                    <ul>
-                        <li><p><img src={row.icon} alt="icon" /></p></li>
-                        <li><p>{row.parameter}</p></li>
-                        <li><p>{row.data}</p></li>
-                    </ul>
-                </Row>
-            )}
+                {rows.map((row, index) =>
+                    <Row key={index}>
+                        <tr>
+                            <td><img src={row.icon} alt="icon"/></td>
+                            <td>{row.data}</td>
+                            <td>{row.parameter}</td>
+                            
+                        </tr>
+                    </Row>
+                )}
+            </table>
+            <button className='click-for-more'><p>Show More</p></button>
         </div>
     );
 };

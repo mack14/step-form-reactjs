@@ -69,13 +69,13 @@ const data = {
       label: 'Customers',
       borderRadius: 10,
       data: [200, 300, 450, 440, 510, 550, 600],
-      backgroundColor: '#4284F3',
+      backgroundColor: '#ffffff',
     },
     {
       label: 'Revenue',
-      borderRadius: 10,
+      borderRadius: 5,
       data: [300, 400, 470, 540, 610, 750, 800],
-      backgroundColor: '#fc4c4e',
+      backgroundColor: '#bbb',
     },
   ],
 };
