@@ -16,7 +16,22 @@ import { TopProductsComponent } from '../../components/top_products';
 const quickDetailsData = [
 
   {
-    icon: 'icon1',
+    icon: 'icon',
+    parameter: 'Text',
+    data: 'Text',
+  },
+  {
+    icon: 'icon',
+    parameter: 'Text',
+    data: 'Text',
+  },
+  {
+    icon: 'icon',
+    parameter: 'Text',
+    data: 'Text',
+  },
+  {
+    icon: 'icon',
     parameter: 'Text',
     data: 'Text',
   }
