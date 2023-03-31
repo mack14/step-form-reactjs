@@ -24,12 +24,12 @@ const options = {
   scales: {
     y: {
       ticks: {
-        color: 'white', // Set the color of the y-axis labels to black
+        color: '#fc4c4e', // Set the color of the y-axis labels to black
       },
     },
     x: {
       ticks: {
-        color: 'white', // Set the color of the x-axis labels to black
+        color: '#1c1c1c1', // Set the color of the x-axis labels to black
       },
     },
   },
@@ -37,13 +37,13 @@ const options = {
     legend: {
       position: 'top' as const,
       labels: {
-        color: 'white'
+        color: '#1c1c1c1'
       }
     },
     title: {
       display: true,
       text: 'Chart.js Bar Chart',
-      color: 'white'
+      color: '#1c1c1c1'
     },
   },
 };
@@ -55,13 +55,15 @@ const data = {
   datasets: [
     {
       label: 'Customers',
+      borderRadius: 10,
       data: [200, 300, 450, 440, 510, 550, 600],
-      backgroundColor: 'rgba(255, 255, 255, 1)',
+      backgroundColor: '#4284F3',
     },
     {
       label: 'Revenue',
-      data: [],
-      backgroundColor: 'rgba(53, 162, 235, 1)',
+      borderRadius: 10,
+      data: [300, 400, 470, 540, 610, 750, 800],
+      backgroundColor: '#fc4c4e',
     },
   ],
 };

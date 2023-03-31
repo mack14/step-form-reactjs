@@ -1,6 +1,6 @@
 $header-height: 8%;
 $dashboard-page-bg-color: rgba(191, 35, 35, 0.5);
-$side-menu-bg-color: #144E2F;
+$side-menu-bg-color: rgba($color: #ffffff, $alpha: 1);
 $header-bg-color: #fff;
 $border-color: rgba(140, 140, 140, .5);
 
@@ -24,7 +24,7 @@ $border-color: rgba(140, 140, 140, .5);
             .side-menu-item {
                 padding-left: 1em;
                 text-align: left;
-                color: #fff;
+                color: #4284F3;
                 font-weight: 700;
                 text-transform: uppercase;
 
@@ -42,11 +42,11 @@ $border-color: rgba(140, 140, 140, .5);
             transition: background-color .2s ease-in-out;
 
             .side-menu-item {
-                color: #144E2F;
+                color: #7d7d7d;
             }
 
             .awesome-icon {
-                color: #EFC907;
+                color: #4284F3;
             }
 
         }
@@ -64,7 +64,7 @@ $border-color: rgba(140, 140, 140, .5);
 .dashboard-content {
     width: 100%;
     height: 100vh;
-    background-color: #fff;
+    background-color: #e0e0e0;
     position: relative;
   }
   

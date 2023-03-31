@@ -21,8 +21,13 @@ a {
 /* credentials component css */
 
 .chart-background-colors {
-  background-image: linear-gradient(-60deg, #1D8353 0%, #0F301B 100%);
+  background: rgba($color: #f6f6f6, $alpha: 1);;
   color: #fff;
+  box-shadow: 3px 3px 8px rgba($color: #000000, $alpha: .3);
+  border-radius:  5px;
+  text-align: center;
+  width: 100%;
+  height: 30vh;
 
 }
 
