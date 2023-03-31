@@ -13,27 +13,24 @@ import './dashboard.scss';
 import { QuickDetailsComponent } from '../../components/quick_details';
 import { TopProductsComponent } from '../../components/top_products';
 
+
 const quickDetailsData = [
 
   {
-    icon: 'icon',
-    parameter: 'Text',
-    data: 'Text',
+    parameter: 'Last 24 hours',
+    data: '24 Customers',
   },
   {
-    icon: 'icon',
-    parameter: 'Text',
-    data: 'Text',
+    parameter: 'In Process',
+    data: '200 orders',
   },
   {
-    icon: 'icon',
-    parameter: 'Text',
-    data: 'Text',
+    parameter: 'on hold',
+    data: '50 orders',
   },
   {
-    icon: 'icon',
-    parameter: 'Text',
-    data: 'Text',
+    parameter: 'out of stock',
+    data: '40 items',
   }
 
 ]
@@ -74,7 +71,7 @@ export default class DashboardPage extends Component {
             <VerticalBarChart />
 
             <div className='summary-details'>
-              <TopProductsComponent title='Top Products' rows={quickDetailsData} />
+              {/* <TopProductsComponent title='Top Products' rows={quickDetailsData} /> */}
               <QuickDetailsComponent title='Quick Details' rows={quickDetailsData} />
 
             </div>

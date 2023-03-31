@@ -28,11 +28,9 @@ h6 {
 table {
     width: 100%;
     margin: 0.5em;
-    background-color: green;
 
     tr {
         width: 100%;
-        background-color: red;
     }
 
     th {
@@ -43,29 +41,17 @@ table {
         background-color: rgba($color: #000000, $alpha: .6);
     }
 
+    td {
+        width: 50%;
+        margin-top: 0.5em;
+        text-align: left;
+        float: left;
+        margin-bottom: 1em;
+        border-bottom: 0.1em solid #bbb;
+    }
 
 }
 
-
-
-
-
-td {
-    display: block;
-    margin-top: 20px;
-    padding: 0.2em 0.2em;
-    text-align: center;
-    float: left;
-    border-bottom: 1px solid #bbb;
-    
-    
-}
-td:first-child {
-    padding-right: 160px;
-    display: flex;
-    align-items: center;
-    
-}
 
 .click-for-more {
     padding: 12px 20px;
