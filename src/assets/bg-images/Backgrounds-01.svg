@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 617.62 503.33">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        isolation: isolate;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-7 {
+        opacity: .7;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-9 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-10 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-11 {
+        opacity: .2;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-12, .cls-6 {
+        opacity: .6;
+      }
+
+      .cls-13 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-14, .cls-6, .cls-15 {
+        fill: none;
+      }
+
+      .cls-6 {
+        stroke: #000;
+      }
+
+      .cls-6, .cls-15 {
+        stroke-width: 2px;
+      }
+
+      .cls-15 {
+        stroke: #07070c;
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-3);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="950.54" cy="287.49" fx="950.54" fy="287.49" r=".96" gradientTransform="translate(-263824.88 450532.23) rotate(-42.51) scale(557.48 -534.03) skewX(-10.89)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#20a268"/>
+      <stop offset="1" stop-color="#12301d"/>
+    </radialGradient>
+    <clipPath id="clippath">
+      <rect class="cls-14" x=".31" y="1.17" width="617" height="501"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="950.78" y1="286.44" x2="950.78" y2="285.44" gradientTransform="translate(-918886.19 81700.36) scale(966.75 -284.7)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2f1f1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="950.78" y1="286.44" x2="950.78" y2="285.44" gradientTransform="translate(-918932.08 81822.08) scale(966.75 -284.7)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clippath-1">
+      <rect class="cls-14" x="637.62" y="1.17" width="346" height="501"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="951.39" y1="286.44" x2="951.39" y2="285.44" gradientTransform="translate(-514990.26 81700.36) scale(542.14 -284.7)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="951.39" y1="286.44" x2="951.39" y2="285.44" gradientTransform="translate(-515016 81822.08) scale(542.14 -284.7)" xlink:href="#linear-gradient-2"/>
+    <clipPath id="clippath-2">
+      <rect class="cls-14" x="1003.67" y="1.34" width="996" height="406"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-5" x1="951.7" y1="286.31" x2="951.7" y2="285.31" gradientTransform="translate(-1483829.46 66278.13) scale(1560.6 -230.72)" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <path id="BG-2" class="cls-10" d="M5.55-.98H612.55c2.76,0,5,2.24,5,5V499.02c0,2.76-2.24,5-5,5H5.55c-2.76,0-5-2.24-5-5V4.02C.55,1.26,2.79-.98,5.55-.98Z"/>
+  <g id="Group_11" data-name="Group 11">
+    <g class="cls-13">
+      <g id="Group_4" data-name="Group 4">
+        <g id="Products_Sold_Graph" data-name="Products Sold Graph" class="cls-11">
+          <path id="Filled.Graph" class="cls-4" d="M-197.8,392.66v-113.97S-86.32,353.44,2.75,358.14c96.31-4.55,112.99-36.54,188.01-79.45,64.11-35.77,128.04-45.58,189.41-43.05s114.55,41.16,187.03,45.12c127.87-15.95,193.11-96.6,201.75-130.28V435.05l-966.75,.13v-42.52Z"/>
+          <path id="Line.Graph" class="cls-6" d="M-196.91,278.98S-86.16,355.52,1.42,357.17s121.21-39.5,188.28-78.09,130.84-45.17,189.55-43.88,115.78,41.73,187.91,43.88,188.83-69.9,201.8-129.95"/>
+          <g id="Mar.Ellipse" class="cls-12">
+            <circle class="cls-1" cx="189.61" cy="277.37" r="4.16"/>
+            <circle class="cls-15" cx="189.61" cy="277.37" r="3.16"/>
+          </g>
+          <g id="Feb.Ellipse" class="cls-12">
+            <path class="cls-1" d="M61.52,351.44c-1.74,0-3.16-1.42-3.16-3.16s1.42-3.16,3.16-3.16,3.16,1.42,3.16,3.16-1.42,3.16-3.16,3.16Z"/>
+            <path d="M61.52,346.12c-1.19,0-2.16,.97-2.16,2.16s.97,2.16,2.16,2.16,2.16-.97,2.16-2.16-.97-2.16-2.16-2.16m0-2c2.3,0,4.16,1.86,4.16,4.16s-1.86,4.16-4.16,4.16-4.16-1.86-4.16-4.16,1.86-4.16,4.16-4.16Z"/>
+          </g>
+        </g>
+        <g id="Products_Sold_Graph-2" data-name="Products Sold Graph-2" class="cls-11">
+          <path id="Filled.Graph-2" class="cls-2" d="M-243.69,514.38v-113.97s111.48,74.76,200.55,79.45c96.31-4.55,112.99-36.54,188.01-79.45,64.11-35.77,128.04-45.58,189.41-43.05s114.55,41.16,187.03,45.12c127.87-15.95,193.11-96.6,201.75-130.28v284.58l-966.75,.13v-42.52Z"/>
+          <path id="Line.Graph-2" class="cls-6" d="M-242.8,400.7s110.76,76.54,198.33,78.19,121.21-39.5,188.28-78.09,130.84-45.17,189.55-43.88,115.78,41.73,187.91,43.88,188.83-69.9,201.8-129.95"/>
+          <g id="Mar.Ellipse-2" class="cls-12">
+            <path class="cls-1" d="M143.72,402.25c-1.74,0-3.16-1.42-3.16-3.16s1.42-3.16,3.16-3.16,3.16,1.42,3.16,3.16-1.42,3.16-3.16,3.16Z"/>
+            <path d="M143.72,396.93c-1.19,0-2.16,.97-2.16,2.16s.97,2.16,2.16,2.16,2.16-.97,2.16-2.16-.97-2.16-2.16-2.16m0-2c2.3,0,4.16,1.86,4.16,4.16s-1.86,4.16-4.16,4.16-4.16-1.86-4.16-4.16,1.86-4.16,4.16-4.16Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="Group_12" data-name="Group 12">
+    <g class="cls-9">
+      <g id="Group_4-2" data-name="Group 4">
+        <g id="Products_Sold_Graph-2" data-name="Products Sold Graph" class="cls-11">
+          <path id="Filled.Graph-2" data-name="Filled.Graph" class="cls-7" d="M526.52,392.66v-113.97s62.51,74.76,112.46,79.45c54.01-4.55,63.36-36.54,105.43-79.45,35.95-35.77,71.8-45.58,106.21-43.05s64.24,41.16,104.89,45.12c71.71-15.95,108.29-96.6,113.14-130.28V435.05l-542.14,.13v-42.52Z"/>
+          <path id="Line.Graph-2" data-name="Line.Graph" class="cls-6" d="M527.02,278.98s62.11,76.54,111.22,78.19,67.97-39.5,105.59-78.09,73.37-45.17,106.29-43.88,64.92,41.73,105.37,43.88,105.89-69.9,113.17-129.95"/>
+        </g>
+        <g id="Products_Sold_Graph-2-2" data-name="Products Sold Graph-2" class="cls-11">
+          <path id="Filled.Graph-2-2" data-name="Filled.Graph-2" class="cls-3" d="M500.79,514.38v-113.97s62.51,74.76,112.46,79.45c54.01-4.55,63.36-36.54,105.43-79.45,35.95-35.77,71.8-45.58,106.21-43.05s64.24,41.16,104.89,45.12c71.71-15.95,108.29-96.6,113.14-130.28v284.58l-542.14,.13v-42.52Z"/>
+          <path id="Line.Graph-2-2" data-name="Line.Graph-2" class="cls-6" d="M501.29,400.7s62.11,76.54,111.22,78.19,67.97-39.5,105.59-78.09,73.37-45.17,106.29-43.88,64.92,41.73,105.37,43.88,105.89-69.9,113.17-129.95"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="Group_13" data-name="Group 13">
+    <g class="cls-8">
+      <g id="Group_4-3" data-name="Group 4">
+        <g id="Products_Sold_Graph-2-3" data-name="Products Sold Graph-2" class="cls-11">
+          <path id="Filled.Graph-2-3" data-name="Filled.Graph-2" class="cls-5" d="M609.79,417.24v-92.36s179.95,60.58,323.74,64.39c155.47-3.69,182.4-29.61,303.5-64.39,103.49-28.98,206.69-36.94,305.75-34.89s184.92,33.36,301.93,36.57c206.42-12.93,311.74-78.28,325.68-105.58v230.62l-1560.6,.11v-34.46Z"/>
+          <path id="Line.Graph-2-3" data-name="Line.Graph-2" class="cls-6" d="M611.22,325.12s178.79,62.03,320.16,63.36,195.66-32.01,303.94-63.28c108.28-31.27,211.21-36.61,305.98-35.56s186.89,33.82,303.33,35.56,304.81-56.65,325.76-105.31"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

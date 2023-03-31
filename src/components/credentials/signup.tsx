@@ -10,6 +10,8 @@ import {Colors} from './../../constants/colors';
 import { ButtonComponent } from "../button";
 import { text } from "stream/consumers";
 import { useRouting } from "../../services/routing";
+import { faCircleUser } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const SignupComponent = () => {
 
@@ -22,8 +24,8 @@ export const SignupComponent = () => {
     return (
 
         <div className="sign-login-div">
-          <h2> Sign up </h2>
      <Form>
+     <FontAwesomeIcon icon={faCircleUser} size="4x" style={{color: "#ffffff",}} />
      <Row>
         <Col md = {12}>
         <Form.Group className="mb-3" controlId="">
@@ -55,18 +57,21 @@ export const SignupComponent = () => {
           </Form.Group>
           </Col>
         </Row>
-
       <Row>
-        <Col>
-        <ButtonComponent color={Colors.BTN_BLUE}  text='Signup' textColor="white" type='submit' onClick={signupClicked} />
+        <Col md = {12}>
+          <div className="remember">Remember me</div>
+          <div className="forgot">Forgot Password?</div>
+        </Col>
+      </Row>
+ 
+      <Row>
+        <Col md = {12}>
+          <Button className="button1" type="submit" onClick={signupClicked}>Sign Up</Button>
+          <Button className="button2" type="submit" onClick={signupClicked}>Google</Button>
         </Col>
       </Row>
       </Form>
 
-      <p> or </p>
-
-<ButtonComponent color={Colors.BTN_WHITE}  text='Google' textColor="black" onClick={signupClicked} />
-      
         </div>
    
     );

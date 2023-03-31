@@ -2,63 +2,96 @@
 
 .App {
   text-align: center;
+  height: 100vh;
+  background-image: url('./assets/bg-images/Backgrounds-04-03.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top :10%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 a {
-  color: blue !important;
-  text-decoration: underline !important;
+  color: rgb(10, 130, 52) !important;
+  text-decoration: none !important;
   cursor: pointer;
 }
 
 /* credentials component css */
 
 .sign-login-div {
-  width: 30%;
+  width: 500px;
   margin: auto;
-  margin-top: 10%;
-  border: 1px solid black;
-  padding: 2em 2em;
-  border-radius: 15px;
+  border: none;
+  padding: 3em 3em;
+  border-radius: 10px;
+  background-color: rgba($color: #05371c, $alpha: .9);
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+}
+.sign-login-div input {
+  padding: 3%;
+  margin: auto;
+  margin-top: 7%;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #FFFFFF;
+  border-radius: 0%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.sign-login-div input::placeholder {
+  color: #FFFFFF;
+}
+.sign-login-div input:focus {
+  outline: none;
+}
+.button1 {
+  margin-top: 7%;
+  border: none;
+  padding: 4%;
+  width: 40%;
+  background-color: #EFC90A;
+  color: #144E2F;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+  float: left;
+  position: relative;
+}
+.button1 hover {
+  background-color: #ffffff;
+}
+.button2 {
+  margin-top: 7%;
+  border: none;
+  padding: 4%;
+  width: 40%;
+  background-color: #ffffff;
+  color: #144E2F;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+  float: right;
+  position: relative;
 }
 
 .chart-background-colors {
   background: linear-gradient(to bottom, #0e4d2b, #7dbb6a 50%, #3d8e4d);
   color: #fff;
 
+}
+.remember {
+  float: left;
+  position: relative;
+  color: #FFFFFF;
+  margin-top: 7%;
+}
+.forgot {
+  float: right;
+  position: relative;
+  color: #FFFFFF;
+  margin-top: 7%;
 }
 
