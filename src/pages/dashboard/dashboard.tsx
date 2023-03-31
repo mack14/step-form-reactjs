@@ -40,30 +40,31 @@ export default class DashboardPage extends Component {
             <div className='dashboard-header'>
               <Navbar expand="lg">
                 <Container fluid>
-                <Nav.Item className='username'> Logo </Nav.Item>
+                  <Nav.Item className='username'> Logo </Nav.Item>
                   <Navbar.Toggle aria-controls="navbarScroll" />
                   <Navbar.Collapse id="navbarScroll">
                     <Nav
                       className="me-auto my-2 my-lg-0"
                       style={{ maxHeight: '100px' }}
                       navbarScroll>
-                      <Nav.Item> Organisation </Nav.Item>                     
+                      <Nav.Item> Organisation </Nav.Item>
                     </Nav>
                     <Nav.Item className='username'> Username </Nav.Item>
-                      <FontAwesomeIcon icon={faCircleUser} size="2xl" style={{color: "#144e2f",}} />
+                    <FontAwesomeIcon icon={faCircleUser} size="2xl" style={{ color: "#144e2f", }} />
                   </Navbar.Collapse>
                 </Container>
               </Navbar>
             </div>
 
-      <VerticalBarChart />
+            <VerticalBarChart />
 
-      <div className='summary-details'>
-      <TopProductsComponent  title = 'Top Products' rows={quickDetailsData} />
-      <QuickDetailsComponent title = 'Quick Details' rows={quickDetailsData} />
+            <div className='summary-details'>
+              <TopProductsComponent title='Top Products' rows={quickDetailsData} />
+              <QuickDetailsComponent title='Quick Details' rows={quickDetailsData} />
 
-      </div>
+            </div>
 
+            <div className='bottoms-spacing'> </div>
           </div>
 
         </div>
