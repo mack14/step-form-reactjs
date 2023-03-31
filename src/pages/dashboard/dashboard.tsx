@@ -15,7 +15,6 @@ import { TopProductsComponent } from '../../components/top_products';
 
 
 const quickDetailsData = [
-
   {
     parameter: 'Last 24 hours',
     data: '24 Customers',
@@ -32,7 +31,32 @@ const quickDetailsData = [
     parameter: 'out of stock',
     data: '40 items',
   }
+]
 
+const headerProductData = [
+  {
+    product: 'Product',
+    inventory: 'Inventory',
+    total: 'Total Sales',
+  }
+]
+
+const topProductsData = [
+  {
+    product: 'Panadol',
+    inventory: 330,
+    cumulativeSales: '930,000 UGX',
+  },
+  {
+    product: 'Coatem',
+    inventory: 400,
+    cumulativeSales: '630,000 UGX',
+  },
+  {
+    product: 'Headtex',
+    inventory: 200,
+    cumulativeSales: '330,000 UGX',
+  }
 ]
 export default class DashboardPage extends Component {
   render() {
@@ -71,7 +95,7 @@ export default class DashboardPage extends Component {
             <VerticalBarChart />
 
             <div className='summary-details'>
-              {/* <TopProductsComponent title='Top Products' rows={quickDetailsData} /> */}
+              <TopProductsComponent title='Top Products' header={headerProductData} rows={topProductsData} />
               <QuickDetailsComponent title='Quick Details' rows={quickDetailsData} />
 
             </div>
