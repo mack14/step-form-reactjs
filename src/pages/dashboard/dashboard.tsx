@@ -11,15 +11,52 @@ import { VerticalBarChart } from '../../components/charts/vertical_bar';
 
 import './dashboard.scss';
 import { QuickDetailsComponent } from '../../components/quick_details';
+import { TopProductsComponent } from '../../components/top_products';
+
 
 const quickDetailsData = [
-
   {
-    icon: 'icon1',
-    parameter: 'Text',
-    data: 'Text',
+    parameter: 'Last 24 hours',
+    data: '24 Customers',
+  },
+  {
+    parameter: 'In Process',
+    data: '200 orders',
+  },
+  {
+    parameter: 'on hold',
+    data: '50 orders',
+  },
+  {
+    parameter: 'out of stock',
+    data: '40 items',
   }
+]
 
+const headerProductData = [
+  {
+    product: 'Product',
+    inventory: 'Inventory',
+    total: 'Total Sales',
+  }
+]
+
+const topProductsData = [
+  {
+    product: 'Panadol',
+    inventory: 330,
+    cumulativeSales: '930,000 UGX',
+  },
+  {
+    product: 'Coatem',
+    inventory: 400,
+    cumulativeSales: '630,000 UGX',
+  },
+  {
+    product: 'Headtex',
+    inventory: 200,
+    cumulativeSales: '330,000 UGX',
+  }
 ]
 export default class DashboardPage extends Component {
   render() {
@@ -39,29 +76,31 @@ export default class DashboardPage extends Component {
             <div className='dashboard-header'>
               <Navbar expand="lg">
                 <Container fluid>
-                <Nav.Item className='username'> Logo </Nav.Item>
+                  <Nav.Item className='username'> Logo </Nav.Item>
                   <Navbar.Toggle aria-controls="navbarScroll" />
                   <Navbar.Collapse id="navbarScroll">
                     <Nav
                       className="me-auto my-2 my-lg-0"
                       style={{ maxHeight: '100px' }}
                       navbarScroll>
-                      <Nav.Item> Organisation </Nav.Item>                     
+                      <Nav.Item className='username'> Organisation </Nav.Item>
                     </Nav>
                     <Nav.Item className='username'> Username </Nav.Item>
-                      <FontAwesomeIcon icon={faCircleUser} size="2xl" style={{color: "#144e2f",}} />
+                    <FontAwesomeIcon icon={faCircleUser} size="2xl" style={{ color: "#250844;", }} />
                   </Navbar.Collapse>
                 </Container>
               </Navbar>
             </div>
 
-      <VerticalBarChart />
+            <VerticalBarChart />
 
-      <div className='quick-details'>
-      <QuickDetailsComponent title = 'Quick Details' rows={quickDetailsData} />
+            <div className='summary-details'>
+              <TopProductsComponent title='Top Products' header={headerProductData} rows={topProductsData} />
+              <QuickDetailsComponent title='Quick Details' rows={quickDetailsData} />
 
-      </div>
+            </div>
 
+            <div className='bottoms-spacing'> </div>
           </div>
 
         </div>

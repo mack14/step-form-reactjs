@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
-import { HomePage } from './pages/home';
+import { HomePage } from './pages/home/home';
 import DashboardPage from './pages/dashboard/dashboard';
 
 function App() {

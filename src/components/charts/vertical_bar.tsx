@@ -8,7 +8,6 @@ import {
   Legend,
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
-import { faker } from '@faker-js/faker';
 
 ChartJS.register(
   CategoryScale,
@@ -24,12 +23,18 @@ const options = {
   scales: {
     y: {
       ticks: {
-        color: 'white', // Set the color of the y-axis labels to black
+        color: '#fff', 
+        font: {
+          size: 18
+        }
       },
     },
     x: {
       ticks: {
-        color: 'white', // Set the color of the x-axis labels to black
+        color: '#fff', 
+        font: {
+          size: 18
+        }
       },
     },
   },
@@ -37,13 +42,20 @@ const options = {
     legend: {
       position: 'top' as const,
       labels: {
-        color: 'white'
+        color: '#fff',
+        font: {
+          size: 18
+        }
       }
     },
     title: {
       display: true,
-      text: 'Chart.js Bar Chart',
-      color: 'white'
+      text: 'Summary Chart',
+      color: '#fff',
+      font: {
+        size: 18
+      }
+
     },
   },
 };
@@ -55,13 +67,15 @@ const data = {
   datasets: [
     {
       label: 'Customers',
+      borderRadius: 10,
       data: [200, 300, 450, 440, 510, 550, 600],
-      backgroundColor: 'rgba(255, 255, 255, 1)',
+      backgroundColor: '#ffffff',
     },
     {
       label: 'Revenue',
-      data: [],
-      backgroundColor: 'rgba(53, 162, 235, 1)',
+      borderRadius: 5,
+      data: [300, 400, 470, 540, 610, 750, 800],
+      backgroundColor: '#bbb',
     },
   ],
 };

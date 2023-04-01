@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366 767.02">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        stroke: #a39ece;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        fill: none;
+      }
+
+      .cls-2, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        stroke-width: 2px;
+      }
+
+      .cls-9 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-6, .cls-14 {
+        isolation: isolate;
+      }
+
+      .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14 {
+        opacity: .7;
+      }
+
+      .cls-10 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-11 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-15 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-16 {
+        opacity: .2;
+      }
+
+      .cls-12 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-17, .cls-6 {
+        opacity: .6;
+      }
+
+      .cls-18 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-13 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-4 {
+        stroke: #65cdf4;
+      }
+
+      .cls-19 {
+        fill: #e6e7e8;
+      }
+
+      .cls-5 {
+        stroke: #a59fce;
+      }
+
+      .cls-6 {
+        stroke: #000;
+      }
+
+      .cls-7 {
+        stroke: #66cdf2;
+      }
+
+      .cls-8 {
+        stroke: #07070c;
+      }
+
+      .cls-14 {
+        fill: url(#linear-gradient-3);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-3" x="-366.05" y="361.68" width="346" height="501"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-52.27" y1="646.95" x2="-52.27" y2="645.95" gradientTransform="translate(28132.89 184701.69) scale(542.14 -284.7)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2f1f1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-52.27" y1="646.95" x2="-52.27" y2="645.95" gradientTransform="translate(28107.16 184823.41) scale(542.14 -284.7)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clippath-1">
+      <rect class="cls-3" x="0" y="-.98" width="1366" height="768"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="-52.02" y1="647.98" x2="-52.02" y2="646.98" gradientTransform="translate(111977.3 282737.5) scale(2140.34 -435.98)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a9a5d2"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" gradientTransform="translate(111874.7 282916.9) scale(2140.34 -435.98)" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-5" x1="-52.02" y1="648.13" x2="-52.02" y2="647.13" gradientTransform="translate(111853.48 215182.29) scale(2140.33 -331.63)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#196e3b"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="-52.02" y1="648.13" x2="-52.02" y2="647.13" gradientTransform="translate(111610.5 215270.56) scale(2140.33 -331.63)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1f9045"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect class="cls-19" x="0" y="-.98" width="1359.62" height="768"/>
+  <g id="Group_12" data-name="Group 12">
+    <g class="cls-18">
+      <g id="Group_4" data-name="Group 4">
+        <g id="Products_Sold_Graph" data-name="Products Sold Graph" class="cls-16">
+          <path id="Filled.Graph" class="cls-12" d="M-477.14,753.18v-113.97s62.51,74.76,112.46,79.45c54.01-4.55,63.36-36.54,105.43-79.45,35.95-35.77,71.8-45.58,106.21-43.05s64.24,41.16,104.89,45.12c71.71-15.95,108.29-96.6,113.14-130.28v284.58l-542.14,.13v-42.52Z"/>
+          <path id="Line.Graph" class="cls-6" d="M-476.64,639.5s62.11,76.54,111.22,78.19,67.97-39.5,105.59-78.09,73.37-45.17,106.29-43.88,64.92,41.73,105.37,43.88,105.89-69.9,113.17-129.95"/>
+        </g>
+        <g id="Products_Sold_Graph-2" data-name="Products Sold Graph-2" class="cls-16">
+          <path id="Filled.Graph-2" class="cls-9" d="M-502.88,874.9v-113.97s62.51,74.76,112.46,79.45c54.01-4.55,63.36-36.54,105.43-79.45,35.95-35.77,71.8-45.58,106.21-43.05s64.24,41.16,104.89,45.12c71.71-15.95,108.29-96.6,113.14-130.28v284.58l-542.14,.13v-42.52Z"/>
+          <path id="Line.Graph-2" class="cls-6" d="M-502.38,761.22s62.11,76.54,111.22,78.19,67.97-39.5,105.59-78.09,73.37-45.17,106.29-43.88,64.92,41.73,105.37,43.88,105.89-69.9,113.17-129.95"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="Group_13" data-name="Group 13">
+    <g id="Group_4-2" data-name="Group 4">
+      <g id="Products_Sold_Graph-2" data-name="Products Sold Graph" class="cls-16">
+        <g id="Mar.Ellipse" class="cls-17">
+          <circle class="cls-1" cx="302.24" cy="585.69" r="3.37"/>
+          <circle class="cls-8" cx="302.24" cy="585.69" r="2.37"/>
+        </g>
+        <g id="Feb.Ellipse" class="cls-17">
+          <path class="cls-1" d="M95.46,645.52c-1.31,0-2.37-1.06-2.37-2.37s1.06-2.37,2.37-2.37,2.37,1.06,2.37,2.37-1.06,2.37-2.37,2.37Z"/>
+          <path d="M95.46,641.78c-.76,0-1.37,.61-1.37,1.37s.61,1.37,1.37,1.37,1.37-.61,1.37-1.37-.61-1.37-1.37-1.37m0-2c1.86,0,3.37,1.51,3.37,3.37s-1.51,3.37-3.37,3.37-3.37-1.51-3.37-3.37,1.51-3.37,3.37-3.37Z"/>
+        </g>
+      </g>
+      <g id="Products_Sold_Graph-2-2" data-name="Products Sold Graph-2" class="cls-16">
+        <g id="Mar.Ellipse-2" class="cls-17">
+          <path class="cls-1" d="M228.16,686.7c-1.31,0-2.37-1.06-2.37-2.37s1.06-2.37,2.37-2.37,2.37,1.06,2.37,2.37-1.06,2.37-2.37,2.37Z"/>
+          <path d="M228.16,682.96c-.76,0-1.37,.61-1.37,1.37s.61,1.37,1.37,1.37,1.37-.61,1.37-1.37-.61-1.37-1.37-1.37m0-2c1.86,0,3.37,1.51,3.37,3.37s-1.51,3.37-3.37,3.37-3.37-1.51-3.37-3.37,1.51-3.37,3.37-3.37Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="Group_10" data-name="Group 10">
+    <g class="cls-15">
+      <g id="Group_4-3" data-name="Group 4">
+        <g id="Products_Sold_Graph-3" data-name="Products Sold Graph" class="cls-16">
+          <path id="Filled.Graph-2" data-name="Filled.Graph" class="cls-14" d="M-438.6,599.25v-174.54S-191.8,539.19,5.4,546.38c213.23-6.97,250.16-55.96,416.25-121.67,141.93-54.77,283.48-69.8,419.33-65.93s253.61,63.04,414.09,69.1c283.1-24.43,427.54-147.93,446.67-199.51v435.79l-2140.34,.19v-65.11Z"/>
+          <path id="Line.Graph-2" data-name="Line.Graph" class="cls-2" d="M-436.64,425.17S-191.43,542.38,2.45,544.9s268.35-60.48,416.85-119.58c148.5-59.09,289.67-69.18,419.64-67.19s256.32,63.91,416.02,67.2,418.05-107.04,446.78-199"/>
+          <g id="Mar.Ellipse-2" data-name="Mar.Ellipse">
+            <circle class="cls-1" cx="419.7" cy="426.14" r="9.81"/>
+            <circle class="cls-5" cx="419.7" cy="426.14" r="8.81"/>
+          </g>
+          <g id="Feb.Ellipse-2" data-name="Feb.Ellipse">
+            <circle class="cls-1" cx="136.11" cy="534.72" r="9.81"/>
+            <circle class="cls-5" cx="136.11" cy="534.72" r="8.81"/>
+          </g>
+        </g>
+        <g id="Products_Sold_Graph-2-3" data-name="Products Sold Graph-2" class="cls-16">
+          <path id="Filled.Graph-2-2" data-name="Filled.Graph-2" class="cls-10" d="M-541.2,778.65v-174.54s246.8,114.48,444,121.67c213.23-6.97,250.16-55.96,416.25-121.67,141.93-54.77,283.48-69.8,419.33-65.93s253.61,63.04,414.09,69.1c283.1-24.43,427.54-147.93,446.67-199.51v435.79l-2140.34,.19v-65.11Z"/>
+          <path id="Line.Graph-2-2" data-name="Line.Graph-2" class="cls-2" d="M-539.24,604.57s245.21,117.21,439.09,119.73,268.35-60.48,416.85-119.58c148.5-59.09,289.67-69.18,419.64-67.19s256.32,63.91,416.02,67.2,418.05-107.04,446.78-199"/>
+          <g id="Mar.Ellipse-2-2" data-name="Mar.Ellipse-2">
+            <circle class="cls-1" cx="317.1" cy="605.54" r="9.81"/>
+            <circle class="cls-5" cx="317.1" cy="605.54" r="8.81"/>
+          </g>
+        </g>
+        <g id="Total_Views_Graph" data-name="Total Views Graph" class="cls-16">
+          <path id="Filled.Graph-3" class="cls-13" d="M-562.11,510.69V244.17S-321.23,509.15-123.35,519.12c220.78-2.25,222.59-137.56,416.6-211.64,162.42-58.17,286.35,100.5,422.21,104.37s229.62-108.74,414.97-116.56c240.14,11.78,432.84,162.23,447.79,170.32v109.99l-2140.33,.19v-65.11Z"/>
+          <path id="Line.Graph-3" class="cls-4" d="M-563.44,246.43s248.38,269.86,442.5,272.39,260.5-159,416.37-213.46c155.87-54.46,291.08,103.87,421.21,105.86s254.72-118.95,414.62-115.66c159.89,3.29,342.7,94.77,443.77,166.93"/>
+          <g id="May.Ellipse">
+            <circle class="cls-1" cx="1126.61" cy="295.19" r="9.81"/>
+            <circle class="cls-7" cx="1126.61" cy="295.19" r="8.81"/>
+          </g>
+          <g id="Mar.Ellipse-3">
+            <circle class="cls-1" cx="359.28" cy="294.53" r="9.81"/>
+            <circle class="cls-7" cx="359.28" cy="294.53" r="8.81"/>
+          </g>
+        </g>
+        <g id="Total_Views_Graph-2" data-name="Total Views Graph-2" class="cls-16">
+          <path id="Filled.Graph-4" class="cls-11" d="M-805.09,598.96V332.44s240.89,264.98,438.76,274.95c220.78-2.25,222.59-137.56,416.6-211.64,162.42-58.17,286.35,100.5,422.21,104.37s229.62-108.74,414.97-116.56c240.14,11.78,432.84,162.23,447.79,170.32v109.99l-2140.33,.19v-65.11Z"/>
+          <path id="Line.Graph-4" class="cls-4" d="M-805.62,334.7s248.38,269.86,442.5,272.39S-102.62,448.09,53.25,393.63c155.87-54.46,291.08,103.87,421.21,105.86s254.72-118.95,414.62-115.66c159.89,3.29,342.7,94.77,443.77,166.93"/>
+          <g id="Apr.Ellipse">
+            <circle class="cls-1" cx="553.8" cy="488.11" r="9.81"/>
+            <circle class="cls-7" cx="553.8" cy="488.11" r="8.81"/>
+          </g>
+          <g id="Mar.Ellipse-4">
+            <circle class="cls-1" cx="51.23" cy="393.27" r="9.81"/>
+            <circle class="cls-7" cx="51.23" cy="393.27" r="8.81"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
