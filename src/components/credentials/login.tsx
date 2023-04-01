@@ -10,46 +10,50 @@ import './credentials.scss';
 
 const LoginComponent = () => {
 
-  const  { navigateTo } = useRouting();
+  const route = useRouting();
 
-  const loginClicked = () => {
-    navigateTo('/dashboard');
+  const handleSubmit = () => {
+    route.navigateTo('/dashboard');
+  }
+
+  const handleGoogleButton = () => {
+
   }
 
   return (
     <div>
-       <div data-testid="login-div" className="sign-login-div">
-     <Form>
-        <FontAwesomeIcon icon={faCircleUser} size="4x" style={{color: "#ffffff",}} />
-        <Row>
-          <Col md = {12}>
-          <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Control required type="email" placeholder="Email" />
-          </Form.Group>
-          </Col>
-        </Row>
-          
+      <div data-testid="login-div" className="sign-login-div">
+        <Form onSubmit={handleSubmit} data-testid="login-form">
+          <FontAwesomeIcon icon={faCircleUser} size="4x" style={{ color: "#ffffff", }} />
           <Row>
-            <Col md = {12}>
-            <Form.Group className="mb-3" controlId="formBasicPassword">
-              <Form.Control required type="password" placeholder="Password" />
-            </Form.Group>
+            <Col md={12}>
+              <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Control required type="email" placeholder="Email" />
+              </Form.Group>
             </Col>
           </Row>
 
           <Row>
-          <Col md={12}>
-            <button className="signup-button credential-button" type="submit" onClick={loginClicked}>Log In</button>
-          </Col>
-        </Row>
+            <Col md={12}>
+              <Form.Group className="mb-3" controlId="formBasicPassword">
+                <Form.Control required type="password" placeholder="Password" />
+              </Form.Group>
+            </Col>
+          </Row>
 
-        <Row>
-          <Col className='pt-2' md={12}>
-            <GoogleButton className='credential-button' onClick={loginClicked} />
-          </Col>
-        </Row>
+          <Row>
+            <Col md={12}>
+              <button className="signup-button credential-button" type="submit">Log In</button>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col className='pt-2' md={12}>
+              <GoogleButton className='credential-button' onClick={handleGoogleButton} />
+            </Col>
+          </Row>
         </Form>
-        </div>
+      </div>
     </div>
   )
 }
