@@ -17,7 +17,7 @@ describe("Login button clicked", () => {
     jest.resetAllMocks();
   });
 
-  it("should call navigateTo when the login up button is clicked", () => {
+  it("should call navigate to dashboard when the login up button is clicked", () => {
     render(<LoginComponent />);
     const signupBtn = screen.getByTestId("login-form");
 
