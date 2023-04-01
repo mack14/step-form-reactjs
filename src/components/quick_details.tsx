@@ -1,10 +1,6 @@
 import Row from 'react-bootstrap/Row';
 
-
 import './components.scss';
-import { faCircleUser } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 interface RowDataProp {
     parameter: string;
     data: string

@@ -12,6 +12,7 @@ import { VerticalBarChart } from '../../components/charts/vertical_bar';
 import './dashboard.scss';
 import { QuickDetailsComponent } from '../../components/quick_details';
 import { TopProductsComponent } from '../../components/top_products';
+import { CardsComponent } from '../../components/cards';
 
 
 const quickDetailsData = [
@@ -116,65 +117,25 @@ export default class DashboardPage extends Component {
 
             </div>
 
-           
+            <div className='bottoms-spacing'></div>
 
-            <div className='bottoms-spacing'> </div>
+            <h3 className='partners-text'> Partners </h3>
+
+            <div className='card-div'>
+              <CardsComponent imagePath={require('./../../assets/images/hezy.jpeg')} title='Designer' name='Hezron' email='hezy@gmail.com' />
+              <CardsComponent imagePath={require('./../../assets/images/lisa.jpeg')} title='Pharmacist' name='Lisa Tumwine' email='lisa.teleo@gmail.com' />
+              <CardsComponent imagePath={require('./../../assets/images/martin.png')} title='Software Engineer' name='Martin Tumwine' email='martintumwine@gmail.com' />
+            </div>
+
             <div>
-  <h1 style={{ textAlign: 'left', color: 'purple' }}>Partners</h1>
-  <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%', maxWidth: '800px', margin: '0 auto' }}>
-    <div style={{ flex: 1, backgroundColor: 'white' }}>
-      <div style={{ display: 'flex' }}>
-        <div style={{ flex: 1, backgroundColor: 'white', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <h1 style={{ textAlign: 'center', fontSize: '1rem' , color: 'purple' }}>GRAPHICS DESIGNER</h1>
-          <div style={{ width: '100px', height: '100px', borderRadius: '50%', backgroundColor: 'gray', margin: '0 auto' }}></div>
-          <p style={{ marginTop: '10px', fontSize: '0.8rem' , color: 'purple' }}>
-            <h2 style={{ textAlign: 'center', fontSize: '1rem' , color: 'purple' }}>HEZRON JAHMIA</h2>hezytumwine@gmail.com
-          </p>
-        </div>
-      </div>
-    </div>
-    <div style={{ flex: 1, backgroundColor: 'white' }}>
-      <div style={{ display: 'flex' }}>
-        <div style={{ flex: 1, backgroundColor: 'white', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <h1 style={{ textAlign: 'center', fontSize: '1rem' , color: 'purple' }}>PHARMACIST</h1>
-          <div style={{ width: '100px', height: '100px', borderRadius: '50%', backgroundColor: 'gray', margin: '0 auto' }}></div>
-          <p style={{ marginTop: '10px', fontSize: '0.8rem' , color: 'purple' }}>
-            <h2 style={{ textAlign: 'center', fontSize: '1rem' , color: 'purple' }}>DR. LISA JAHGUM</h2>lisa.teleo@gmail.com
-          </p>
-        </div>
-      </div>
-    </div>
-    <div style={{ flex: 1, backgroundColor: 'white' }}>
-      <div style={{ display: 'flex' }}>
-        <div style={{ flex: 1, backgroundColor: 'white', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <h1 style={{ textAlign: 'center', fontSize: '1rem', color: 'purple'  }}>SOFTWARE DEVELOPER</h1>
-          <div style={{ width: '100px', height: '100px', borderRadius: '50%', backgroundColor: 'gray', margin: '0 auto' }}></div>
-          <p style={{ marginTop: '10px', fontSize: '0.8rem' , color: 'purple' }}>
-            <h2 style={{ textAlign: 'center', fontSize: '1rem' , color: 'purple' }}>MARTIN TUMWINE</h2>martintumwine@gmail.com
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div>
-  
-<div style={{ display: 'flex', justifyContent: 'space-between', padding: '20px' }}>
-    <div style={{ flex: 1 }}>
 
-    </div>
-  </div>
-
-  <footer style={{ backgroundColor: 'gray', textAlign: 'center', padding: '10px' }}>
-    <p style={{ color: 'purple', margin: '0' }}>© 2023 Pharma Vault</p>
-  </footer>
-</div>
+              <footer>
+                <p> © 2023 Pharma Vault </p>
+              </footer>
+            </div>
 
 
           </div>
-
-
-
 
         </div>
       </Container>
