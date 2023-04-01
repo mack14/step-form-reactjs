@@ -16,7 +16,6 @@
     "@types/react-dom": "^18.0.11",
     "bootstrap": "^5.2.3",
     "chart.js": "^4.2.1",
-    "faker": "^6.6.6",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
@@ -25,7 +24,6 @@
     "react-google-button": "^0.7.2",
     "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
-    "recharts": "^2.5.0",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -54,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "chromatic": "^6.17.2",
     "sass": "^1.59.3"
   }
 }
