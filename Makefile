@@ -1,2 +1,2 @@
-app-run:
+run-dev:
 	npm start ./src/
