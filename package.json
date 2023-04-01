@@ -39,9 +39,9 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint && npm test",
+      "pre-commit": "npm test",
       "pre-push": "npm run lint && npm test"
-    },
+    }},
     "eslintConfig": {
       "extends": [
         "react-app",
