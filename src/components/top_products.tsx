@@ -43,12 +43,14 @@ export const TopProductsComponent = ({ title, header, rows }: TopProductsProps) 
                     <Row key={index}>
                         <tr>
                             <td>{row.product}</td>
-                            <td>{row.inventory}</td>
+                            <td className='stock'> {row.inventory}</td>
                             <td>{row.cumulativeSales}</td>
                         </tr>
                     </Row>
                 )}
             </table>
+
+           <p>Show More</p> 
         </div>
     );
 };

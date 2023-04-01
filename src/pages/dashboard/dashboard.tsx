@@ -17,26 +17,30 @@ import { TopProductsComponent } from '../../components/top_products';
 const quickDetailsData = [
   {
     parameter: 'Last 24 hours',
-    data: '24 Customers',
+    data: '290 Customers',
   },
   {
-    parameter: 'In Process',
-    data: '200 orders',
+    parameter: 'Awaiting Process',
+    data: '490 orders',
   },
   {
     parameter: 'on hold',
-    data: '50 orders',
+    data: '120 orders',
+  },
+  {
+    parameter: 'Low in stock',
+    data: '40 items',
   },
   {
     parameter: 'out of stock',
-    data: '40 items',
+    data: '42 items',
   }
 ]
 
 const headerProductData = [
   {
     product: 'Product',
-    inventory: 'Inventory',
+    inventory: 'Stock',
     total: 'Total Sales',
   }
 ]
@@ -45,17 +49,29 @@ const topProductsData = [
   {
     product: 'Panadol',
     inventory: 330,
-    cumulativeSales: '930,000 UGX',
+    cumulativeSales: '910,000 UGX',
   },
   {
-    product: 'Coatem',
+    product: 'Coartem',
     inventory: 400,
     cumulativeSales: '630,000 UGX',
   },
+  
   {
-    product: 'Headtex',
+    product: 'Headex',
     inventory: 200,
-    cumulativeSales: '330,000 UGX',
+    cumulativeSales: '320,000 UGX',
+  },
+  
+  {
+    product: 'Ciprofloxacin',
+    inventory: 270,
+    cumulativeSales: '540,000 UGX',
+  },
+  {
+    product: 'Painex',
+    inventory: 500,
+    cumulativeSales: '150,000 UGX',
   }
 ]
 export default class DashboardPage extends Component {
@@ -83,7 +99,7 @@ export default class DashboardPage extends Component {
                       className="me-auto my-2 my-lg-0"
                       style={{ maxHeight: '100px' }}
                       navbarScroll>
-                      <Nav.Item className='username'> Organisation </Nav.Item>
+                      <Nav.Item style={{ color: "purple", }} className='username'> PHARMAVOLT </Nav.Item>
                     </Nav>
                     <Nav.Item className='username'> Username </Nav.Item>
                     <FontAwesomeIcon icon={faCircleUser} size="2xl" style={{ color: "#250844;", }} />
