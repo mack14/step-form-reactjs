@@ -93,14 +93,14 @@ export default class DashboardPage extends Component {
             <div className='dashboard-header'>
               <Navbar expand="lg">
                 <Container fluid>
-                  <Nav.Item className='username'> Logo </Nav.Item>
+                <img className='logo' src={require('./../../assets/icons/logo.jpeg')} width={30} height={30} alt="card-image" />
                   <Navbar.Toggle aria-controls="navbarScroll" />
                   <Navbar.Collapse id="navbarScroll">
                     <Nav
                       className="me-auto my-2 my-lg-0"
                       style={{ maxHeight: '100px' }}
                       navbarScroll>
-                      <Nav.Item style={{ color: "purple", }} className='username'> PHARMAVOLT </Nav.Item>
+                      <Nav.Item style={{ color: "purple", }} className='username'> Pharma Vault </Nav.Item>
                     </Nav>
                     <Nav.Item className='username'> Username </Nav.Item>
                     <FontAwesomeIcon icon={faCircleUser} size="2xl" style={{ color: "#250844;", }} />
