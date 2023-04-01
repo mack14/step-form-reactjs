@@ -18,7 +18,7 @@ export const SignupComponent = () => {
 
   return (
 
-    <div className="sign-login-div">
+    <div id="signup-div" data-testid="signup-div" className="sign-login-div">
       <Form>
         <FontAwesomeIcon icon={faCircleUser} size="4x" style={{ color: "#ffffff" }} />
         <Row>

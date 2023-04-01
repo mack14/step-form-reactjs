@@ -18,7 +18,7 @@ const LoginComponent = () => {
 
   return (
     <div>
-       <div className="sign-login-div">
+       <div data-testid="login-div" className="sign-login-div">
      <Form>
         <FontAwesomeIcon icon={faCircleUser} size="4x" style={{color: "#ffffff",}} />
         <Row>
