@@ -1,5 +1,4 @@
 import { Component } from 'react'
-import Container from 'react-bootstrap/esm/Container'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCapsules, faCashRegister, faCircleUser, faLayerGroup, faPerson } from '@fortawesome/free-solid-svg-icons';
@@ -12,6 +11,7 @@ import { VerticalBarChart } from '../../components/charts/vertical_bar';
 import './dashboard.scss';
 import { QuickDetailsComponent } from '../../components/quick_details';
 import { TopProductsComponent } from '../../components/top_products';
+import { Container } from 'react-bootstrap';
 
 
 const quickDetailsData = [

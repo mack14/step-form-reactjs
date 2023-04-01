@@ -12,14 +12,18 @@ export const SignupComponent = () => {
 
   const route = useRouting();
 
-  const signupClicked = () => {
+  const handleSubmit = () => {
     route.navigateTo('/dashboard');
+  }
+
+  const handleGoogleButton = () => {
+
   }
 
   return (
 
-    <div className="sign-login-div">
-      <Form>
+    <div id="signup-div" data-testid="signup-div" className="sign-login-div">
+      <Form onSubmit={handleSubmit} data-testid="signup-form">
         <FontAwesomeIcon icon={faCircleUser} size="4x" style={{ color: "#ffffff" }} />
         <Row>
           <Col md={12}>
@@ -54,13 +58,13 @@ export const SignupComponent = () => {
         </Row>
         <Row>
           <Col md={12}>
-            <button className="signup-button credential-button" type="submit" onClick={signupClicked}>Sign Up</button>
+            <button className="signup-button credential-button" data-testid="signup-btn" type="submit">Sign Up</button>
           </Col>
         </Row>
 
         <Row>
           <Col className='pt-2' md={12}>
-            <GoogleButton className='credential-button' label='Sign up with Google' onClick={signupClicked} />
+            <GoogleButton className='credential-button' label='Sign up with Google' onClick={handleGoogleButton} />
           </Col>
         </Row>
 

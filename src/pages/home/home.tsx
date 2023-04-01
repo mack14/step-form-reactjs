@@ -24,14 +24,14 @@ export const HomePage = () => {
             {showSignup && (
               <div>
                 <SignupComponent />
-                <p className="pt-3"> Already have an account? <a onClick={clickLogin}> Login </a></p>
+                <p className="pt-3"> Already have an account? <a data-testid="login-link" onClick={clickLogin}> Login </a></p>
               </div>
             )}
             {/* login part */}
             {showLogin && (
               <div>
                 <LoginComponent />
-                <p className="pt-3"> Don't have an account! <a onClick={clickSignup}> Sign Up </a></p>
+                <p className="pt-3"> Don't have an account! <a data-testid="signup-link" onClick={clickSignup}> Sign Up </a></p>
               </div>
             )}
     </div>
