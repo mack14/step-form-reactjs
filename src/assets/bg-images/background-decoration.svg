@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366 768">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #a4a1fb;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke-width: 2px;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-6, .cls-7, .cls-8, .cls-9 {
+        isolation: isolate;
+        opacity: .7;
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-2 {
+        stroke: #54d8ff;
+      }
+
+      .cls-3 {
+        stroke: #55d8fe;
+      }
+
+      .cls-4 {
+        stroke: #a3a0fb;
+      }
+
+      .cls-10 {
+        opacity: .2;
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-9 {
+        fill: url(#linear-gradient-3);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1.1" y1="768.84" x2="1.1" y2="767.84" gradientTransform="translate(-1484.59 335352.24) scale(2140.34 -435.98)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a7a7ff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" gradientTransform="translate(-1587.19 335531.64) scale(2140.34 -435.98)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="1.1" y1="768.79" x2="1.1" y2="767.79" gradientTransform="translate(-1608.09 255119.86) scale(2140.33 -331.63)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#196e3b"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="1.1" y1="768.79" x2="1.1" y2="767.79" gradientTransform="translate(-1851.07 255208.13) scale(2140.33 -331.63)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1b8f13"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_10" data-name="Group 10">
+    <g id="Group_4" data-name="Group 4">
+      <g id="Products_Sold_Graph" data-name="Products Sold Graph" class="cls-10">
+        <path id="Filled.Graph" class="cls-8" d="M-204.18,521.24v-174.54s246.8,114.48,444,121.67c213.23-6.97,250.16-55.96,416.25-121.67,141.93-54.77,283.48-69.8,419.33-65.93s253.61,63.04,414.09,69.1c283.1-24.43,427.54-147.93,446.67-199.51v435.79l-2140.34,.19v-65.11Z"/>
+        <path id="Line.Graph" class="cls-4" d="M-202.21,347.16s245.21,117.21,439.09,119.73,268.35-60.48,416.85-119.58,289.67-69.18,419.64-67.19,256.32,63.91,416.02,67.2,418.05-107.04,446.78-199"/>
+        <g id="Mar.Ellipse">
+          <circle class="cls-5" cx="654.13" cy="348.13" r="9.81"/>
+          <circle class="cls-1" cx="654.13" cy="348.13" r="8.81"/>
+        </g>
+        <g id="Feb.Ellipse">
+          <circle class="cls-5" cx="370.53" cy="456.71" r="9.81"/>
+          <circle class="cls-1" cx="370.53" cy="456.71" r="8.81"/>
+        </g>
+      </g>
+      <g id="Products_Sold_Graph-2" data-name="Products Sold Graph-2" class="cls-10">
+        <path id="Filled.Graph-2" class="cls-6" d="M-306.78,700.64v-174.54s246.8,114.48,444,121.67c213.23-6.97,250.16-55.96,416.25-121.67,141.93-54.77,283.48-69.8,419.33-65.93s253.61,63.04,414.09,69.1c283.1-24.43,427.54-147.93,446.67-199.51v435.79l-2140.34,.19v-65.11Z"/>
+        <path id="Line.Graph-2" class="cls-4" d="M-304.81,526.56s245.21,117.21,439.09,119.73,268.35-60.48,416.85-119.58,289.67-69.18,419.64-67.19,256.32,63.91,416.02,67.2,418.05-107.04,446.78-199"/>
+        <g id="Mar.Ellipse-2">
+          <circle class="cls-5" cx="551.53" cy="527.53" r="9.81"/>
+          <circle class="cls-1" cx="551.53" cy="527.53" r="8.81"/>
+        </g>
+      </g>
+      <g id="Total_Views_Graph" data-name="Total Views Graph" class="cls-10">
+        <path id="Filled.Graph-3" class="cls-9" d="M-327.69,432.69V166.17S-86.8,431.15,111.08,441.12c220.78-2.25,222.59-137.56,416.6-211.64,162.42-58.17,286.35,100.5,422.21,104.37s229.62-108.74,414.97-116.56c240.14,11.78,432.84,162.23,447.79,170.32v109.99l-2140.33,.19v-65.11Z"/>
+        <path id="Line.Graph-3" class="cls-2" d="M-329.01,168.43S-80.63,438.29,113.49,440.81s260.5-159,416.37-213.46,291.08,103.87,421.21,105.86,254.72-118.95,414.62-115.66c159.89,3.29,342.7,94.77,443.77,166.93"/>
+        <g id="May.Ellipse">
+          <circle class="cls-5" cx="1361.03" cy="217.18" r="9.81"/>
+          <circle class="cls-3" cx="1361.03" cy="217.18" r="8.81"/>
+        </g>
+        <g id="Mar.Ellipse-3">
+          <circle class="cls-5" cx="593.71" cy="216.52" r="9.81"/>
+          <circle class="cls-3" cx="593.71" cy="216.52" r="8.81"/>
+        </g>
+      </g>
+      <g id="Total_Views_Graph-2" data-name="Total Views Graph-2" class="cls-10">
+        <path id="Filled.Graph-4" class="cls-7" d="M-570.67,520.96V254.44s240.89,264.98,438.76,274.95c220.78-2.25,222.59-137.56,416.6-211.64,162.42-58.17,286.35,100.5,422.21,104.37s229.62-108.74,414.97-116.56c240.14,11.78,432.84,162.23,447.79,170.32v109.99l-2140.33,.19v-65.11Z"/>
+        <path id="Line.Graph-4" class="cls-2" d="M-571.19,256.7s248.38,269.86,442.5,272.39,260.5-159,416.37-213.46,291.08,103.87,421.21,105.86,254.72-118.95,414.62-115.66c159.89,3.29,342.7,94.77,443.77,166.93"/>
+        <g id="Apr.Ellipse">
+          <circle class="cls-5" cx="788.22" cy="410.11" r="9.81"/>
+          <circle class="cls-3" cx="788.22" cy="410.11" r="8.81"/>
+        </g>
+        <g id="Mar.Ellipse-4">
+          <circle class="cls-5" cx="285.66" cy="315.27" r="9.81"/>
+          <circle class="cls-3" cx="285.66" cy="315.27" r="8.81"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

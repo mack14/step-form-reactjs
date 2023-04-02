@@ -3,19 +3,26 @@
 .App {
   text-align: center;
   height: 100vh;
-  background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);;
+  background-image: url(../../pharmacy-web/src/assets/bg-images/background-decoration.svg),
+  linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%),;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 
-a {
+
+.form-bottom-link a {
+  color: #ef0a7c!important;
+  text-decoration: underline !important;
+  font-weight: 600;
+  cursor: pointer;
+}
+ a {
   color: #EFC90A!important;
   text-decoration: underline !important;
   font-weight: 600;
   cursor: pointer;
 }
-
 /* credentials component css */
 
 .chart-background-colors {
@@ -68,11 +75,11 @@ a {
   height: 100vh;
   width: 50%;
   margin: 0% auto 0% 0%;
-  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-image:  url(../../pharmacy-web/src/assets/bg-images/background-decoration-portrait.svg), 
+  linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   background-size: cover;
   color: #ffffff;
 }
-
 
 .welcome-message {
   flex-direction: column;
