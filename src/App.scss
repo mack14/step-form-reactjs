@@ -3,7 +3,7 @@
 .App {
   text-align: center;
   height: 100vh;
-  background-image: url(../../pharmacy-web/src/assets/bg-images/background-decoration.svg),
+  background-image: url('./assets/bg-images/background-decoration-portrait.svg'),
   linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%),;
   background-repeat: no-repeat;
   background-size: cover;
@@ -75,7 +75,7 @@
   height: 100vh;
   width: 50%;
   margin: 0% auto 0% 0%;
-  background-image:  url(../../pharmacy-web/src/assets/bg-images/background-decoration-portrait.svg), 
+  background-image:  url('./assets/bg-images/background-decoration-portrait.svg'), 
   linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   background-size: cover;
   color: #ffffff;
