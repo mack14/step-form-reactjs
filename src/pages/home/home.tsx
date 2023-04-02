@@ -29,8 +29,8 @@ export const HomePage = () => {
           <p>An inventory management system that makes organising, access and retrieval of all pharmacy data and information easy</p>
         </div>
         <div className='welcome-message-footer'>
-          <text>Proudly Ugandan <img className='contry-flag' src={require('./../../assets/icons/uganda-flag.png')} width={40} height={40} alt="card-image" /></text>
-          <a href="mailto:johndoe@mail.com">Contact Us</a>
+          <span>Proudly Ugandan <img className='contry-flag ms-2' src={require('./../../assets/icons/uganda-flag.png')} width={40} height={40} alt="card-image" /></span>
+          <a className='ms-2' href="martin_t@zaantu.com">Contact Us</a>
         </div>
       </div>
 
