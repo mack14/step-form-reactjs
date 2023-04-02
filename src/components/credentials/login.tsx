@@ -24,7 +24,7 @@ const LoginComponent = () => {
         <Row>
           <Col md = {12}>
           <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Control required type="email" placeholder="Email" />
+            <Form.Control type="email" placeholder="Email" />
           </Form.Group>
           </Col>
         </Row>
@@ -32,7 +32,7 @@ const LoginComponent = () => {
           <Row>
             <Col md = {12}>
             <Form.Group className="mb-3" controlId="formBasicPassword">
-              <Form.Control required type="password" placeholder="Password" />
+              <Form.Control type="password" placeholder="Password" />
             </Form.Group>
             </Col>
           </Row>
