@@ -24,13 +24,12 @@ const LoginComponent = () => {
               <h1>Welcome</h1>
               <h3>To your < text style={{color:"#EFC90A",}}>Pharmacy Assistant Manager</text></h3>
               <p>An inventory managemwnt system that makes organising, access and retrieval of all pharmacy data and information easy</p>
-              
-              <div className='welcome-message-footer'>
-                <text>©️ 2023 Pharma Vault</text>
-                <text>Proudly Ugandan <FontAwesomeIcon icon={faCircleUser} size="2xl" style={{ color: "#250844;", }} /></text>
-                <a href = "mailto:johndoe@mail.com">Contact Us</a>
-              </div>
           </div>
+          <div className='welcome-message-footer'>
+              <text>©️ 2023 Pharma Vault</text>
+              <text>Proudly Ugandan <FontAwesomeIcon icon={faCircleUser} size="2xl" style={{ color: "#250844;", }} /></text>
+              <a href = "mailto:johndoe@mail.com">Contact Us</a>
+            </div>
       </div>
 
       <div className='form-container'>
