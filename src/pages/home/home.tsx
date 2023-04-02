@@ -19,7 +19,7 @@ export const HomePage = () => {
   }
 
   return (
-    <div>
+    <div className='contents'>
            {/* signup part */}
             {showSignup && (
               <div>
@@ -34,7 +34,7 @@ export const HomePage = () => {
                 <p className="pt-3"> Don't have an account! <a onClick={clickSignup}> Sign Up </a></p> 
               </div>
             )}
-             
+             <p className="pt-4"> ©️ 2023 Pharma Vault</p>
     </div>
   );
 };

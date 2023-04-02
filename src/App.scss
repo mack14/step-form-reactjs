@@ -52,8 +52,26 @@ a {
   width: 100%;
   clear: both;
 }
+
 .pt-3 {
   left: 110%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
   position: relative;
   font-weight: 600;
+  
+}
+.pt-4 {
+  left: 58%;
+  position: absolute;
+  margin: 0;
+  bottom: 5%;
+  display: flex;
+	justify-content: center;
+  font-weight: 600;
+}
+.home-contents {
+  display: flex;
+  justify-content: center;
 }
