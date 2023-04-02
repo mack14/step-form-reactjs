@@ -2,7 +2,7 @@ import { Component } from 'react'
 import Container from 'react-bootstrap/esm/Container'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCapsules, faCashRegister, faCircleUser, faLayerGroup, faPerson } from '@fortawesome/free-solid-svg-icons';
+import { faBarsProgress, faCapsules, faCashRegister, faCircleCheck, faCircleMinus, faCircleUser, faCloudShowersWater, faFileCircleCheck, faLayerGroup, faPeopleGroup, faPerson, faSwatchbook, faWalkieTalkie } from '@fortawesome/free-solid-svg-icons';
 
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -19,22 +19,40 @@ const quickDetailsData = [
   {
     parameter: 'Last 24 hours',
     data: '290 Customers',
+    icon: faCircleUser,
+    iconColor: '#8283FF'
   },
   {
     parameter: 'Awaiting Process',
     data: '490 orders',
+    icon: faCircleCheck,
+    iconColor: '#4BD991'
+
+
   },
   {
     parameter: 'on hold',
     data: '120 orders',
+    icon: faFileCircleCheck,
+    iconColor: '#FFCA83'
+
+
   },
   {
     parameter: 'Low in stock',
     data: '40 items',
+    icon: faCircleMinus,
+    iconColor: '#FF7285'
+
+
   },
   {
     parameter: 'out of stock',
     data: '42 items',
+    icon: faFileCircleCheck,
+    iconColor: '#8283FF'
+
+
   }
 ]
 
