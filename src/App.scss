@@ -6,9 +6,6 @@
   background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 
@@ -61,7 +58,55 @@ a {
   text-align: center;
   font-weight: 600;
 }
+
 .home-contents {
   display: flex;
   justify-content: center;
+}
+
+.welcome-message-container {
+  width: 40%;
+  margin: 0% auto 0% 0%;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-size: cover;
+  color: #ffffff;
+}
+
+
+.welcome-message {
+  position: relative;
+	display: flex;
+  flex-direction: column;
+	justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 12%;
+  padding-top: 28%;
+}
+.welcome-message h1 {
+  padding-top: 5%;
+  font-size: 3em;
+  font-weight: 900;
+}
+.welcome-message h3 {
+  padding-top: 2%;
+  font-weight: 700;
+}
+.welcome-message p {
+  padding: 3em 0;
+  width: 70%;
+  text-align: justify;
+  font-size: larger;
+}
+.welcome-message-footer {
+  width: 100%;
+  bottom: 5%;
+  display: flex;
+	justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.credentials-divs {
+  width: 100%;
 }

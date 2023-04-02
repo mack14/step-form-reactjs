@@ -16,22 +16,7 @@ const LoginComponent = () => {
     navigateTo('/dashboard');
   }
 
-  return (
-    <div className='content-box'>
-        <div className='welcome-message-container'>
-            <div className="welcome-message">
-              <FontAwesomeIcon icon={faCircleUser} size="4x" style={{color: "#ffffff",}} />
-              <h1>Welcome</h1>
-              <h3>To your < text style={{color:"#EFC90A",}}>Pharmacy Assistant Manager</text></h3>
-              <p>An inventory managemwnt system that makes organising, access and retrieval of all pharmacy data and information easy</p>
-          </div>
-          <div className='welcome-message-footer'>
-              <text>Proudly Ugandan <FontAwesomeIcon icon={faCircleUser} size="2xl" style={{ color: "#250844;", }} /></text>
-              <a href = "mailto:johndoe@mail.com">Contact Us</a>
-            </div>
-      </div>
-
-      <div className='form-container'>
+  return (    
         <div className="sign-login-div">
           <Form>
             <FontAwesomeIcon icon={faCircleUser} size="4x" style={{color: "#ffffff",}} />
@@ -64,8 +49,6 @@ const LoginComponent = () => {
             </Row>
           </Form>
         </div>
-      </div>
-    </div>
   )
 }
 
