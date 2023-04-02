@@ -3,21 +3,26 @@
 .App {
   text-align: center;
   height: 100vh;
-  background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);;
+  background-image: url('./assets/bg-images/background-decoration.svg'),
+  linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 
-a {
-  color: rgb(107, 121, 209) !important;
+
+.form-bottom-link a {
+  color: #ef0a7c!important;
   text-decoration: underline !important;
+  font-weight: 600;
   cursor: pointer;
 }
-
+ a {
+  color: #EFC90A!important;
+  text-decoration: underline !important;
+  font-weight: 600;
+  cursor: pointer;
+}
 /* credentials component css */
 
 .chart-background-colors {
@@ -59,4 +64,60 @@ font-weight: 500;
     color:#764BA2;
     margin: .3em 0em;
   }
+}
+.copywrite-text {
+  left: 58%;
+  margin: 0;
+  bottom: 5%;
+	justify-content: center;
+  text-align: center;
+  font-weight: 600;
+}
+
+.home-contents {
+  display: flex;
+  justify-content: center;
+}
+
+.welcome-message-container {
+  height: 100vh;
+  width: 50%;
+  margin: 0% auto 0% 0%;
+  background-image:  url('./assets/bg-images/background-decoration-portrait.svg'), 
+  linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-size: cover;
+  color: #ffffff;
+}
+
+.welcome-message {
+  flex-direction: column;
+	justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 12%;
+  padding-top: 28%;
+}
+.welcome-message h1 {
+  padding-top: 5%;
+  font-size: 3em;
+  font-weight: 900;
+}
+.welcome-message h3 {
+  padding-top: 2%;
+  font-weight: 700;
+}
+.welcome-message p {
+  padding: 3em 0;
+  text-align: left;
+  font-size: larger;
+}
+.welcome-message-footer {
+  
+margin: 10% 0 0 0;
+}
+.welcome-message-footer text {
+  margin: 0 3% 0 0; 
+}
+.credentials-divs {
+  width: 100%;
 }

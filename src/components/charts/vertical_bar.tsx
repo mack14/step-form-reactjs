@@ -50,8 +50,8 @@ const options = {
     },
     title: {
       display: true,
-      text: 'Summary Chart',
-      color: '#fff',
+      text: '6 Months Chart',
+      color: '#FFF',
       font: {
         size: 18
       }
