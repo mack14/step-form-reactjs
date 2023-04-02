@@ -28,7 +28,7 @@ export const SignupComponent = () => {
         <Row>
           <Col md={12}>
             <Form.Group className="mb-2" controlId="">
-              <Form.Control required type="text" placeholder="First name" />
+              <Form.Control type="text" placeholder="First name" />
             </Form.Group>
           </Col>
         </Row>
@@ -36,7 +36,7 @@ export const SignupComponent = () => {
         <Row>
           <Col md={12}>
             <Form.Group className="mb-2" controlId="">
-              <Form.Control required type="text" placeholder="Surname" />
+              <Form.Control type="text" placeholder="Surname" />
             </Form.Group>
           </Col>
         </Row>
@@ -44,7 +44,7 @@ export const SignupComponent = () => {
         <Row>
           <Col md={12}>
             <Form.Group className="mb-2" controlId="formBasicEmail">
-              <Form.Control required type="email" placeholder="Email" />
+              <Form.Control type="email" placeholder="Email" />
             </Form.Group>
           </Col>
         </Row>
@@ -52,7 +52,7 @@ export const SignupComponent = () => {
         <Row>
           <Col md={12}>
             <Form.Group className="mb-2" controlId="formBasicPassword">
-              <Form.Control required type="password" placeholder="Password" />
+              <Form.Control type="password" placeholder="Password" />
             </Form.Group>
           </Col>
         </Row>

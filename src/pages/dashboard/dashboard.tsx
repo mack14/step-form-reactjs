@@ -1,7 +1,7 @@
 import { Component } from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCapsules, faCashRegister, faCircleUser, faLayerGroup, faPerson } from '@fortawesome/free-solid-svg-icons';
+import { faBarsProgress, faCapsules, faCashRegister, faCircleCheck, faCircleMinus, faCircleUser, faCloudShowersWater, faFileCircleCheck, faLayerGroup, faPeopleGroup, faPerson, faSwatchbook, faWalkieTalkie } from '@fortawesome/free-solid-svg-icons';
 
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -12,31 +12,54 @@ import './dashboard.scss';
 import { QuickDetailsComponent } from '../../components/quick_details';
 import { TopProductsComponent } from '../../components/top_products';
 import { Container } from 'react-bootstrap';
+import { CardsComponent } from '../../components/cards';
 
 
 const quickDetailsData = [
   {
     parameter: 'Last 24 hours',
-    data: '24 Customers',
+    data: '290 Customers',
+    icon: faCircleUser,
+    iconColor: '#8283FF'
   },
   {
-    parameter: 'In Process',
-    data: '200 orders',
+    parameter: 'Awaiting Process',
+    data: '490 orders',
+    icon: faCircleCheck,
+    iconColor: '#4BD991'
+
+
   },
   {
     parameter: 'on hold',
-    data: '50 orders',
+    data: '120 orders',
+    icon: faFileCircleCheck,
+    iconColor: '#FFCA83'
+
+
+  },
+  {
+    parameter: 'Low in stock',
+    data: '40 items',
+    icon: faCircleMinus,
+    iconColor: '#FF7285'
+
+
   },
   {
     parameter: 'out of stock',
-    data: '40 items',
+    data: '42 items',
+    icon: faFileCircleCheck,
+    iconColor: '#8283FF'
+
+
   }
 ]
 
 const headerProductData = [
   {
     product: 'Product',
-    inventory: 'Inventory',
+    inventory: 'Stock',
     total: 'Total Sales',
   }
 ]
@@ -45,17 +68,29 @@ const topProductsData = [
   {
     product: 'Panadol',
     inventory: 330,
-    cumulativeSales: '930,000 UGX',
+    cumulativeSales: '910,000 UGX',
   },
   {
-    product: 'Coatem',
+    product: 'Coartem',
     inventory: 400,
     cumulativeSales: '630,000 UGX',
   },
+  
   {
-    product: 'Headtex',
+    product: 'Headex',
     inventory: 200,
-    cumulativeSales: '330,000 UGX',
+    cumulativeSales: '320,000 UGX',
+  },
+  
+  {
+    product: 'Ciprofloxacin',
+    inventory: 270,
+    cumulativeSales: '540,000 UGX',
+  },
+  {
+    product: 'Painex',
+    inventory: 500,
+    cumulativeSales: '150,000 UGX',
   }
 ]
 export default class DashboardPage extends Component {
@@ -76,14 +111,14 @@ export default class DashboardPage extends Component {
             <div className='dashboard-header'>
               <Navbar expand="lg">
                 <Container fluid>
-                  <Nav.Item className='username'> Logo </Nav.Item>
+                <img className='logo' src={require('./../../assets/icons/logo.jpeg')} width={30} height={30} alt="card-image" />
                   <Navbar.Toggle aria-controls="navbarScroll" />
                   <Navbar.Collapse id="navbarScroll">
                     <Nav
                       className="me-auto my-2 my-lg-0"
                       style={{ maxHeight: '100px' }}
                       navbarScroll>
-                      <Nav.Item className='username'> Organisation </Nav.Item>
+                      <Nav.Item style={{ color: "purple", }} className='username'> Pharma Vault </Nav.Item>
                     </Nav>
                     <Nav.Item className='username'> Username </Nav.Item>
                     <FontAwesomeIcon icon={faCircleUser} size="2xl" style={{ color: "#250844;", }} />
@@ -100,7 +135,24 @@ export default class DashboardPage extends Component {
 
             </div>
 
-            <div className='bottoms-spacing'> </div>
+            <div className='bottoms-spacing'></div>
+
+            <h3 className='partners-text'> Partners </h3>
+
+            <div className='card-div'>
+              <CardsComponent imagePath={require('./../../assets/images/hezy.jpeg')} title='Designer' name='Hezron' email='hezy@gmail.com' />
+              <CardsComponent imagePath={require('./../../assets/images/lisa.jpeg')} title='Pharmacist' name='Lisa Tumwine' email='lisa.teleo@gmail.com' />
+              <CardsComponent imagePath={require('./../../assets/images/martin.png')} title='Software Engineer' name='Martin Tumwine' email='martintumwine@gmail.com' />
+            </div>
+
+            <div>
+
+              <footer>
+                <p> © 2023 Pharma Vault </p>
+              </footer>
+            </div>
+
+
           </div>
 
         </div>

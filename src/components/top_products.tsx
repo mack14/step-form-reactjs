@@ -32,7 +32,7 @@ export const TopProductsComponent = ({ title, header, rows }: TopProductsProps) 
                     <Row key={index}>
                         <tr>
                             <th>{header.product}</th>
-                            <th>{header.inventory}</th>
+                            <th className='stock-heading'>{header.inventory}</th>
                             <th>{header.total}</th>
                             
                         </tr>
@@ -43,12 +43,14 @@ export const TopProductsComponent = ({ title, header, rows }: TopProductsProps) 
                     <Row key={index}>
                         <tr>
                             <td>{row.product}</td>
-                            <td>{row.inventory}</td>
+                            <td> <div className='stock'> {row.inventory} </div> </td>
                             <td>{row.cumulativeSales}</td>
                         </tr>
                     </Row>
                 )}
             </table>
+
+           <p>Show More</p> 
         </div>
     );
 };
