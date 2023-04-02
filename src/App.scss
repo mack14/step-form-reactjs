@@ -13,8 +13,9 @@
 
 
 a {
-  color: rgb(107, 121, 209) !important;
+  color: #EFC90A!important;
   text-decoration: underline !important;
+  font-weight: 600;
   cursor: pointer;
 }
 
@@ -50,4 +51,9 @@ a {
   height: 1em;
   width: 100%;
   clear: both;
+}
+.pt-3 {
+  left: 110%;
+  position: relative;
+  font-weight: 600;
 }

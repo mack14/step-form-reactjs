@@ -31,9 +31,10 @@ export const HomePage = () => {
             {showLogin && (
               <div>
                 <LoginComponent />
-                <p className="pt-3"> Don't have an account! <a onClick={clickSignup}> Sign Up </a></p>
+                <p className="pt-3"> Don't have an account! <a onClick={clickSignup}> Sign Up </a></p> 
               </div>
             )}
+             
     </div>
   );
 };
