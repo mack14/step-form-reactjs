@@ -1,13 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.scss';
+import "./App.scss";
 
-import Container from 'react-bootstrap/Container';
+import Container from "react-bootstrap/Container";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-
-import { HomePage } from './pages/home/home';
-import DashboardPage from './pages/dashboard/dashboard';
+import { HomePage } from "./pages/home/home";
+import DashboardPage from "./pages/dashboard/dashboard";
 
 function App() {
   return (

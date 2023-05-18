@@ -1,123 +1,111 @@
 @import "bootstrap/dist/css/bootstrap.css";
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap");
 .App {
-  text-align: center;
-  height: 100vh;
-  background-image: url('./assets/bg-images/background-decoration.svg'),
-  linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+  background-image: url("./assets/bg-images/background-decoration.svg"),
+    linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-
-
-.form-bottom-link a {
-  color: #ef0a7c!important;
-  text-decoration: underline !important;
-  font-weight: 600;
-  cursor: pointer;
-}
- a {
-  color: #EFC90A!important;
-  text-decoration: underline !important;
-  font-weight: 600;
-  cursor: pointer;
-}
-/* credentials component css */
-
-.chart-background-colors {
-  padding: 50px;
-  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: #fff;
-  box-shadow: 5px 5px 3px rgba(0,0,0,0.5);
-  border-radius:  10px;
-  text-align: center;
-  width: 100%;
-  height: 30vh;
-
-}
-
-.remember {
-  float: left;
-  position: relative;
-  color: #FFFFFF;
-  margin-top: 7%;
-}
-
-.forgot {
-  float: right;
-  position: relative;
-  color: #FFFFFF;
-  margin-top: 7%;
-}
-
-.bottoms-spacing {
-  height: 1em;
-  width: 100%;
-  clear: both;
-}
-
-footer {
-clear: both;
-font-weight: 500;
-  p {
-    color:#764BA2;
-    margin: .3em 0em;
-  }
-}
-.copywrite-text {
-  left: 58%;
-  margin: 0;
-  bottom: 5%;
-	justify-content: center;
-  text-align: center;
-  font-weight: 600;
-}
-
 .home-contents {
+  text-align: center;
+  height: 100vh;
+  width: 100%;
   display: flex;
   justify-content: center;
-}
-
-.welcome-message-container {
-  height: 100vh;
-  width: 50%;
-  margin: 0% auto 0% 0%;
-  background-image:  url('./assets/bg-images/background-decoration-portrait.svg'), 
-  linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  background-size: cover;
-  color: #ffffff;
+  align-items: center;
+  font-family: "Open Sans";
 }
 
 .welcome-message {
-  flex-direction: column;
-	justify-content: center;
+  display: flex;
+  justify-content: center;
+  background-color: #ececec;
+  height: 84vh;
+  width: 56vw;
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+.welcome-message-content {
+  color: #707070;
+  margin-top: 30px;
+  width: 66%;
+}
+.welcome-message-h1 {
+  padding-top: 38px;
+}
+
+.welcome-message-p {
+  padding-top: 28px;
+}
+.welcome-message-buttons {
+  padding-top: 26px;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  text-align: center;
-  padding: 0 12%;
-  padding-top: 28%;
+  gap: 40px;
 }
-.welcome-message h1 {
-  padding-top: 5%;
-  font-size: 3em;
-  font-weight: 900;
+.button {
+  position: relative;
+  font-size: 17px;
+  text-decoration: none;
+  padding: 0.4em 2.5em;
+  display: inline-block;
+  border-radius: 6em;
+  transition: all 0.2s;
+  border: none;
+  color: white;
+  background: transparent linear-gradient(270deg, #cf2c62 0%, #2c57cf 100%) 0%
+    0% no-repeat padding-box;
 }
-.welcome-message h3 {
-  padding-top: 2%;
-  font-weight: 700;
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
-.welcome-message p {
-  padding: 3em 0;
-  text-align: left;
-  font-size: larger;
+
+.button:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-.welcome-message-footer {
-  
-margin: 10% 0 0 0;
+
+.button::after {
+  background-color: #fff;
 }
-.welcome-message-footer text {
-  margin: 0 3% 0 0; 
+.proudly {
+  color: #1d2851;
+  padding-top: 38px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
-.credentials-divs {
-  width: 100%;
+.flag {
+  height: 20px;
 }
+.contact-us {
+  text-decoration: none;
+  padding-left: 24px;
+  color: #1d2851;
+}
+// .welcome-message h1 {
+//   padding-top: 5%;
+//   font-size: 3em;
+//   font-weight: 900;
+// }
+// .welcome-message h3 {
+//   padding-top: 2%;
+//   font-weight: 700;
+// }
+// .welcome-message p {
+//   padding: 3em 0;
+//   text-align: left;
+//   font-size: larger;
+// }
+// .welcome-message-footer {
+//   margin: 10% 0 0 0;
+// }
+// .welcome-message-footer text {
+//   margin: 0 3% 0 0;
+// }
+// .credentials-divs {
+//   width: 100%;
+// }
